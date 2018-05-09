@@ -9,8 +9,8 @@ int main()
 
 	std::cout << "My first CMake project!!" << std::endl;
 
-	std::cout << "PLUS: " << plus(4, 3) << std::endl;
-	std::cout << "MULT: " << mult(4, 3) << std::endl;
+	std::cout << "PLUS: " << plus(1, 8) << std::endl;
+	std::cout << "MULT: " << mult(1, 8) << std::endl;
 
 	std::cout << "========================" << std::endl;
 	
