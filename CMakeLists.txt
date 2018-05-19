@@ -8,7 +8,7 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/head
 
 #set(SOURCE main.cpp plus.cpp mult.cpp)
 file(GLOB SOURCE "*.cpp")
-file(GLOB HEADERS "*.h")
+file(GLOB_RECURSE HEADERS "*.h")
 
 add_library(MyLibrary SHARED ${SOURCE} ${HEADERS})
 add_executable(${PROJECT_NAME} ${SOURCE} ${HEADERS})
