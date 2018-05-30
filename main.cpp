@@ -12,6 +12,13 @@ int main()
 	std::cout << "PLUS: " << plus(1, 8) << std::endl;
 	std::cout << "MULT: " << mult(1, 8) << std::endl;
 
+    int value = 123;
+    int* pValue = &value;
+
+    std::cout << *pValue << std::endl;
+    std::cout << pValue << std::endl;
+    std::cout << sizeof(pValue) << std::endl;
+
 	std::cout << "========================" << std::endl;
 	
 	return 0;
