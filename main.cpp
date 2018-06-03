@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cassert>
 
 #include "plus.h"
 #include "mult.h"
@@ -18,6 +19,8 @@ int main()
     std::cout << *pValue << std::endl;
     std::cout << pValue << std::endl;
     std::cout << sizeof(pValue) << std::endl;
+    
+    assert(false);
 
 	std::cout << "========================" << std::endl;
 	
